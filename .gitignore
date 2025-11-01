@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Build and cache directories
+dist/
+build/
+.cache/
+.tmp/
+temp/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Uploaded or generated data
+data/*.json
+
+# Optional: ignore swagger auto-generated files
+
+# Debug files
+*.bak
+*.orig
+
+# Optional: ignore import/export helper scripts
+importData.js
